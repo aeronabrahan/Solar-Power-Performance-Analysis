@@ -1,1 +1,28 @@
-
+# Theme and Plugins
+remote_theme: pages-themes/midnight@v0.2.0
+plugins:
+ - jekyll-remote-theme
+# Repository Metadata
+title: "Solar Power Performance Analysis"
+description: "Solar Power Performance Analysis is a data-driven dashboard designed to analyze solar energy production, energy consumption, and cost savings using real-time data from Lux Power Tek."
+author: "Jan Aeron Abrahan"
+github_username: "aeronabrahan"
+# Navigation Settings
+show_downloads: true
+include:
+ - README.md
+ - assets/datasets
+ - assets/images
+ - assets/pbi
+# Repository Settings
+repository: "aeronabrahan/Solar-Power-Performance-Analysis"
+url: "https://github.com/aeronabrahan/Solar-Power-Performance-Analysis"
+# SEO and Social Sharing
+social:
+ name: "Jan Aeron Abrahan"
+ links:
+   - "https://github.com/aeronabrahan"
+   - "https://linkedin.com/in/jagabrahan"
+# Custom Options
+markdown: kramdown
+permalink: pretty
