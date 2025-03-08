@@ -3,9 +3,9 @@
 ---
 
 ## Project Overview
-This project aims to **analyze, optimize, and maximize solar power efficiency** while minimizing reliance on grid electricity. By leveraging **real-time solar energy data** from Lux Power Tek, the dashboard provides **insights into energy consumption, grid dependency, and financial savings**.  
+This project aims to analyze, optimize, and maximize solar power efficiency while minimizing reliance on grid electricity. By leveraging real-time solar energy data from Lux Power Tek, the dashboard provides insights into energy consumption, grid dependency, and financial savings.  
 
-✔ **Live Dashboard Link**: [Solar Power Performance Analysis](https://app.powerbi.com/reportEmbed?reportId=aad797a8-917e-4b98-8d83-e2ca78ed143c&autoAuth=true&ctid=254ba93e-1f6f-48f3-90e6-e2766664b477)  
+✔ Live Dashboard Link: [Solar Power Performance Analysis](https://app.powerbi.com/reportEmbed?reportId=aad797a8-917e-4b98-8d83-e2ca78ed143c&autoAuth=true&ctid=254ba93e-1f6f-48f3-90e6-e2766664b477)  
 
 ![Power BI Dashboard](assets/images/dashboard.gif)
 
@@ -40,130 +40,130 @@ This project aims to **analyze, optimize, and maximize solar power efficiency** 
 ---
 
 ## Problem Statement
-Electricity costs continue to rise, and **solar power adoption alone does not guarantee maximum savings**. Homeowners need **actionable insights** on:
-- **When to use appliances** for **maximum solar efficiency**  
-- **How to reduce grid dependency** for better energy independence  
-- **When to clean panels** to **prevent efficiency drops**  
-- **How much money is saved** and the **ROI of their solar investment**  
+Electricity costs continue to rise, and solar power adoption alone does not guarantee maximum savings. Homeowners need actionable insights on:
+- When to use appliances for maximum solar efficiency.  
+- How to reduce grid dependency for better energy independence.  
+- When to clean panels to prevent efficiency drops.  
+- How much money is saved and the ROI of their solar investment.  
 
-A **data-driven solution** is required to help homeowners make **smarter energy decisions** and **maximize their solar investment**.
+A data-driven solution is required to help homeowners make smarter energy decisions and maximize their solar investment.
 
 ---
 
 ## Objective
 
 ### Strategic Goals
-- **Optimize energy efficiency** by identifying peak solar hours for optimal appliance usage  
-- **Improve solar utilization monitoring** to detect potential panel maintenance needs  
-- **Minimize electricity costs** through data-driven decisions  
-- **Analyze return on investment (ROI)** to quantify financial savings and long-term benefits  
+- Optimize energy efficiency by identifying peak solar hours for optimal appliance usage  
+- Improve solar utilization monitoring to detect potential panel maintenance needs  
+- Minimize electricity costs through data-driven decisions  
+- Analyze return on investment (ROI) to quantify financial savings and long-term benefits  
 
 ### Pain Point
-Traditional energy monitoring does not provide insights into **how to optimize solar power usage**. Without **real-time tracking**, energy efficiency is **not maximized**, and cost savings are **not fully realized**.
+Traditional energy monitoring does not provide insights into how to optimize solar power usage. Without real-time tracking, energy efficiency is not maximized, and cost savings are not fully realized.
 
 ### Ideal Solution
-A **Power BI dashboard** that provides:
-- **Real-time solar energy production insights**
-- **Best time to run appliances** for free solar energy  
-- **Grid dependency tracking** to optimize energy consumption  
-- **Cost savings analysis** from solar energy usage  
-- **Actionable insights** to reduce electricity expenses  
+A Power BI dashboard that provides:
+- Real-time solar energy production insights
+- Best time to run appliances for free solar energy  
+- Grid dependency tracking to optimize energy consumption  
+- Cost savings analysis from solar energy usage  
+- Actionable insights to reduce electricity expenses  
 
 ---
 
 ## User Story
-*"As a homeowner who has invested in solar energy, I want to monitor solar production, consumption, and grid usage in real time so that I can make **data-driven decisions** on when to use high-power appliances and how to **maximize solar efficiency while minimizing costs**."*
+*"As a homeowner who has invested in solar energy, I want to monitor solar production, consumption, and grid usage in real time so that I can make data-driven decisions on when to use high-power appliances and how to maximize solar efficiency while minimizing costs."*
 
-*"Since installing solar panels last year, I’ve seen the benefits of reduced electricity expenses, but I know there’s **room for improvement**. I want to identify the **best times to use appliances**, track how much I’m **saving**, and determine whether my **solar panels need cleaning or maintenance** to ensure optimal efficiency. By leveraging **insights from data**, I aim to **reduce grid dependency** and **maximize my return on investment** over time."*
+*"Since installing solar panels last year, I’ve seen the benefits of reduced electricity expenses, but I know there’s room for improvement. I want to identify the best times to use appliances, track how much I’m saving, and determine whether my solar panels need cleaning or maintenance to ensure optimal efficiency. By leveraging insights from data, I aim to reduce grid dependency and maximize my return on investmen* over time."*
 
 ---
 
 ## Data Source
-- **Data extracted from:** Lux Power Tek (Solar monitoring system)  
-- **Data transformation & combination:** Python (Pandas)  
-- **Final dataset stored as:** CSV for Power BI integration  
+- Data extracted from: Lux Power Tek (Solar monitoring system)  
+- Data transformation & combination: Python (Pandas)  
+- Final dataset stored as: CSV for Power BI integration  
 
 ---
 
 ## Dashboard Design
 
 ### Home Page
-**Purpose:**  
-Provides an **overview of solar performance metrics**, including total energy consumption, solar energy produced, and cost savings.  
+Purpose:  
+Provides an overview of solar performance metrics* including total energy consumption, solar energy produced, and cost savings.  
 
-**Cards Used:**  
+Cards Used:  
 - Total Solar Energy Produced  
 - Electricity Cost  
 - Savings  
 - Self-Sufficiency Ratio  
 - Grid Dependency Ratio  
 
-**Visuals/Charts Used:**  
+Visuals/Charts Used:  
 - KPI Cards for quick performance metrics  
 
 ---
 
 ### Daily Energy & Power Performance
-**Purpose:**  
-Tracks **hourly energy consumption, solar generation, and grid import** to identify daily trends.  
+Purpose:  
+Tracks hourly energy consumption, solar generation, and grid import to identify daily trends.  
 
-**Cards Used:**  
+Cards Used:  
 - Energy Consumption  
 - Solar Energy Utilization Rate  
 - Solar Energy Produced  
 - Grid Energy Import  
 
-**Visuals/Charts Used:**  
-- Line Chart: **Energy Trends**
-- Scatter Plot: **Solar Energy & Grid Usage Correlation**
-- Bar Chart: **Energy Distribution**
+Visuals/Charts Used:  
+- Line Chart: Energy Trends
+- Scatter Plot: Solar Energy & Grid Usage Correlation
+- Bar Chart: Energy Distribution
 
 ---
 
 ### Monthly Energy & Cost Breakdown
-**Purpose:**  
-Analyzes **monthly energy usage, savings, and grid dependency trends**.  
+Purpose:  
+Analyzes monthly energy usage, savings, and grid dependency trends.  
 
-**Cards Used:**  
+Cards Used:  
 - Energy Consumption  
 - Savings from Solar Energy  
 - Solar Energy Produced  
 - Grid Energy Import  
 
-**Visuals/Charts Used:**  
-- Line Chart: **Energy Cost Breakdown**
-- Area Chart: **Solar vs. Grid Usage Over Time**
-- Stacked Bar Chart: **Solar vs. Grid Contribution**
+Visuals/Charts Used:  
+- Line Chart: Energy Cost Breakdown
+- Area Chart: Solar vs. Grid Usage Over Time
+- Stacked Bar Chart: Solar vs. Grid Contribution
 
 ---
 
 ### Financial Impact & Cost-Benefit Analysis
-**Purpose:**  
-Evaluates **ROI, investment recovery, and cost savings over time**.  
+Purpose:  
+Evaluates ROI, investment recovery, and cost savings over time.  
 
-**Cards Used:**  
+Cards Used:  
 - Total Investment Cost  
 - Cost of Electricity  
 - Total Annual Savings  
 - Return on Investment  
 
-**Visuals/Charts Used:**  
-- Area Chart: **Monthly Electricity Cost vs. Solar Savings**
-- Bar Chart: **Investment Recovery Progress**
+Visuals/Charts Used:  
+- Area Chart: Monthly Electricity Cost vs. Solar Savings
+- Bar Chart: Investment Recovery Progress
 
 ---
 
 ### Key Insights & Actions
-**Purpose:**  
-Provides **actionable insights based on performance metrics** to optimize solar energy usage.  
+Purpose:  
+Provides actionable insights based on performance metrics to optimize solar energy usage.  
 
-**Cards Used:**  
+Cards Used:  
 - Best Time to Use More Appliances  
 - Total Solar Savings to Date  
 - Investment Return Progress  
 - Solar Utilization Efficiency  
 
-**Visuals/Charts Used:**  
+Visuals/Charts Used:  
 - Text-based insights & recommendations  
 
 ---
@@ -172,20 +172,20 @@ Provides **actionable insights based on performance metrics** to optimize solar 
 
 | Tool | Purpose |
 |------|---------|
-| **Power BI** | Data visualization and interactive dashboard |
-| **Python (Pandas)** | Data transformation and combining CSV files |
-| **GitHub** | Version control and documentation |
+| Power BI | Data visualization and interactive dashboard |
+| Python (Pandas) | Data transformation and combining CSV files |
+| GitHub | Version control and documentation |
 
 ---
 
 ## Development Process
 
 ### Pseudocode
-1. **Extract** solar energy data from Lux Power Tek  
-2. **Combine and clean** datasets using Python  
-3. **Analyze** key performance metrics (solar utilization, grid dependency, cost savings)  
-4. **Develop** Power BI dashboard to visualize real-time trends  
-5. **Deploy** interactive insights for decision-making  
+1. Extract solar energy data from Lux Power Tek  
+2. Combine and clean datasets using Python  
+3. Analyze key performance metrics (solar utilization, grid dependency, cost savings)  
+4. Develop Power BI dashboard to visualize real-time trends  
+5. Deploy interactive insights for decision-making  
 
 ---
 
