@@ -36,7 +36,6 @@ This project aims to analyze, optimize, and maximize solar power efficiency whil
 - [Connect with Me](#connect-with-me)
 - [Feedback & Suggestions](#feedback--suggestions)
 
-## Feedback & Suggestions
 ---
 
 ## Problem Statement
